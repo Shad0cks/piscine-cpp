@@ -27,15 +27,15 @@ public:
 	static int	getTotalAmount( void );
 	static int	getNbDeposits( void );
 	static int	getNbWithdrawals( void );
-	static void	displayAccountsInfos( void );
+	static void	displayAccountsInfos( void ); // la
 
 	Account( int initial_deposit );
 	~Account( void );
 
 	void	makeDeposit( int deposit );
 	bool	makeWithdrawal( int withdrawal );
-	int		checkAmount( void ) const;
-	void	displayStatus( void ) const;
+	int		checkAmount( void ) const; 
+	void	displayStatus( void ) const; // la
 
 
 private:
@@ -45,7 +45,7 @@ private:
 	static int	_totalNbDeposits;
 	static int	_totalNbWithdrawals;
 
-	static void	_displayTimestamp( void );
+	static void	_displayTimestamp( void ); // l
 
 	int				_accountIndex;
 	int				_amount;
