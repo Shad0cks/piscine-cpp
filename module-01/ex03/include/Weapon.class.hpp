@@ -1,3 +1,6 @@
+#ifndef WEAPON_CLASS_HPP
+# define WEAPON_CLASS_HPP
+
 class Weapon 
 {
 
@@ -10,3 +13,5 @@ class Weapon
         std::string _type;
 
 };
+
+#endif

@@ -1,3 +1,5 @@
+#ifndef HUMANA_CLASS_HPP
+# define HUMANA_CLASS_HPP
 
 class HumanA
 {
@@ -9,3 +11,5 @@ class HumanA
     private:
         std::string const _name;
 };
+
+#endif

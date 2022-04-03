@@ -1,3 +1,6 @@
+#ifndef KAREN_CLASS_HPP
+# define KAREN_CLASS_HPP
+
 #include <iostream>
 #include <string>
 
@@ -14,3 +17,5 @@ class Karen
         ~Karen(void);
         void complain(std::string level);
 };
+
+#endif
