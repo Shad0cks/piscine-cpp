@@ -1,13 +1,13 @@
 SOURCES_FILES	=	main.cpp 						\
 
 
-HEADER			=	include/header.hpp
+HEADER			=	header.hpp
 
 SOURCES			=	$(addprefix ./, $(SOURCES_FILES))
 
 OBJECTS			= 	$(SOURCES:.cpp=.o)
 
-NAME			=	Sed
+NAME			=	ex04
 
 CC				=	g++
 RM				=	rm -f
